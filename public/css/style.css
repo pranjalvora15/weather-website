@@ -1,0 +1,48 @@
+h1{
+    color:salmon;
+    font: size 64px;
+    margin-bottom: 16px;
+}
+body{
+    font-family:arial;
+    max-width:650px;
+    margin:0 auto;
+    padding:0 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content{
+    flex-grow:1;
+}
+
+footer{
+    color: slategrey;
+    border-left: 6px solid rgb(58, 149, 224);
+    background-color: rgb(168, 196, 214);
+    border-radius: 5px;
+}
+header{
+    margin-top:16px;
+    margin-bottom: 48px;
+}
+header a{
+    color:grey;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+input{
+    border:1px solid lightsalmon;
+    padding:8px
+}
+button{
+    cursor: pointer;
+    border-radius: 5px;
+    border-width:0 3px;
+    border-style: solid;
+    border-color: lightskyblue;
+    /* border-right:3px solid lightskyblue; */
+    background:rgb(168, 211, 228);
+    padding: 8px;
+}
